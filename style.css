@@ -1,0 +1,18 @@
+.slider {
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  display: block;
+  margin: 50px auto;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slider img {
+  position: absolute;
+  display: none;
+}
